@@ -1,42 +1,88 @@
-body{
-  background:black;
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111319;
 }
 
+#owner {
+  margin-left: 0.5%;
+}
 
+.nav {
+  color: #fff;
+  font-size: 100%;
+  text-decoration: none;
+  margin: 30px;
+}
 
-#home,#about,#projects,#more{
-  border-radius: 10px;
-  background: rgb(0, 0, 0.5);
+.nav:hover {
+  color: #60a5fa;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#signup {
   color: white;
+  border-radius: 25px;
+  background-color: #60a5fa;
   padding: 10px;
-  display: inline;
-  margin-top: 0;
-  margin-left:6px;
+  
 }
 
-img{
-  margin: 20px 0 0 15px;
-  border-radius: 50%;
+#navigation {
+  margin-right: 30px;
 }
 
-    .code-container {
-      background-color: #000000;
-      color: #00ff00; /* Green text for classic "code" look, change if you want white */
-      padding: 20px;
-      border-radius: 10px;
-      font-family: 'Courier New', Courier, monospace;
-      max-width: 800px;
-      margin: 20px auto;
-      overflow-x: auto;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-    }
-    .code-container pre {
-      margin: 0;
-      white-space: pre;
-    }
-    .code-title {
-      color: #00ff00;
-      font-size: 1.2em;
-      margin-bottom: 15px;
-      text-align: center;
-    }
+strong {
+  color: #60a5fa;
+}
+
+.name {
+  color: #fff;
+  margin-left: 80px;
+}
+
+.description {
+  color: #99a1ab;
+  margin-left: 80px;
+}
+
+#hire,.Cv {
+  color: white;
+  border-radius: 10px;
+  background-color: #60a5fa;
+  padding: 10px;
+  margin-left: 80px;
+  text-decoration: none;
+}
+
+.Cv {
+  color: #99a1ab;
+  border: solid 2px #99a1ab;
+  background-color: #000;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#container2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #99a1ab;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#container1{
+  display: block;
+  width: 500px;
+  align-items: left;
+}
